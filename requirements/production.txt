@@ -1,0 +1,13 @@
+bs4
+numpy
+pandas
+pymongo
+redis
+requests
+scipy
+statsmodels
+unidecode
+pysolar
+openpyxl
+toposort
+-r babel/requirements/production.txt

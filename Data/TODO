@@ -1,0 +1,8 @@
+* Go to every function and add / verify comment on argument / etc...
+  + Hypervisor/Politics/RamDBCalculusPolitic.py get_val is an example... lots of undocumented args
+
+* Implement SharedData which contain a Data object but protect every read/write by a threading lock
+  ++++ WARNING ++++ deadlock :
+   + get_val => lock | missing => calcul | calcul => get_val but locked....
+
+* local => save only in SharedRam
